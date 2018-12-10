@@ -7,3 +7,4 @@ Eratta:
 - Connected ethernet after successfully programming over USB.  Ran sudo apt-get update, sudo apt-get upgrade, sudo apt dist-update, rebooted as instructed
 - Installed firefox, removed Libre Office from toolbar, and other customization preferences...
 - USB connection from host to target appears to function as a file share USB drive
+- git add . && git commit -m "build notes"
