@@ -1,0 +1,9 @@
+Installed JetPack 4.1.1 Developer Preview
+https://developer.nvidia.com/embedded/jetpack
+
+Eratta:
+- Pamphlet instructions that came with the Xavier platform specify not to hot-swap periphreals.  However, note 5 shows a keybord/mouse being connected without stipulating a reboot.  I ran this with the keyboard/mouse installed throughout
+- Following first attempt at install process, the script on the host machine reported an issue installing at the end of the isntall that CUDA tools could not be installed.  The terminal listed a command to run on the target machine to fix the issue, though attempting to copy the text closed the terminal window.  it is not clear where the terminal info was logged, so attempted a second end-to-end install of Jetpack.  Second attempt compelted successfully without issue.
+- Connected ethernet after successfully programming over USB.  Ran sudo apt-get update, sudo apt-get upgrade, sudo apt dist-update, rebooted as instructed
+- Installed firefox, removed Libre Office from toolbar, and other customization preferences...
+- USB connection from host to target appears to function as a file share USB drive
